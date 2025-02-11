@@ -40,6 +40,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 body {
 width: 768px;
 height: 1024px;
+border: 1px solid #000;
 }
 
 
@@ -59,7 +60,7 @@ height: 1024px;
 .content-image-1{
    width: 40px;
    height: 40px;
-   
+   margin-right: 17px;
    border: 1px solid #000;
 }
 
@@ -73,14 +74,14 @@ height: 1024px;
 .content-image-3{
    width: 40px;
    height: 40px;
-   
+   float: right;
    border: 1px solid #000;
 }
 
 
 .content-nav{
    width: 320px;
-   height: 876px;
+   height: 688px;
    padding: 0 0 0 24px;
    border: 1px solid #000;
 }
@@ -95,15 +96,29 @@ height: 1024px;
 .content-nav-nav-ul{
    line-height: 32px;
    size: 16px;
+   color: #000;
+   /*text-decoration: none;*/
    letter-spacing: -0.2px;
 }
 
-.content-footer{}
+.content-nav-nav-ul a{
+color: black;
+}
 
-.content-footer-img {}
+.content-footer{
+   margin: 0 0 32px 24px;
+}
 
-.content-footer-img-1{}
-.content-footer-img-1__ICON{}
+.content-footer-img {
+
+}
+
+.content-footer-img-1{
+   background-color: black;
+}
+.content-footer-img-1__ICON{
+   
+}
 
 .content-footer-img-2{}
 .content-footer-img-2__ICON{}
@@ -112,10 +127,34 @@ height: 1024px;
 .content-footer-img-3__ICON1{}
 .content-footer-img-3__ICON2{}
 
-.content-footer-nav{}
-.content-footer-text{}
-.content-footer-lang{}
+.content-footer-nav{
+   margin: 16px 0 16px;
+   font-size: 16px;
+   /*size: 16px;
+   line-height: 24px;*/
+   letter-spacing: -0.2px;
+}
+.content-footer-text{
+   font-size: 24px;
+   font-weight: bold;/**/
+   line-height: 32px;
+   letter-spacing: -0.6px;
+}
+.content-footer-lang{
+   /*size: 16px;*/
+   margin: 40px 0 0;
+}
 
+/*.span {
+   font-size: 160px;
+}*/
+
+.content-footer-lang button:nth-child(1){
+   color: #7E7E82;
+}
+.content-footer-lang button:nth-child(2){
+   margin: 0 7px;
+}
 
 
 
